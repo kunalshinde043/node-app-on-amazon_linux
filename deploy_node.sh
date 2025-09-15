@@ -25,3 +25,16 @@ sudo npm install
 echo "=== Running Node.js App in Foreground ==="
 # This will block your terminal; use PM2 below to keep it running after exit
 sudo npm start app.js
+
+# --- PM2 Section ---
+# The below lines will install and start app.js with PM2
+# Uncomment these lines when ready to run via PM2
+
+# echo "=== Installing PM2 (Process Manager) ==="
+# sudo npm install -g pm2
+
+# echo "=== Starting Application with PM2 ==="
+# sudo pm2 start app.js
+# pm2 list
+
+echo "=== Deployment Script Completed ==="
